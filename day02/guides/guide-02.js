@@ -10,3 +10,12 @@
 'use strict';
 
 // TODO: écris ta solution ici.
+let N = 100;
+let compteur = 0;
+
+while (N >= 1) {
+    N /= 2;
+    compteur++;
+}
+
+console.log(`Nombre de divisions : ${compteur}`); // 7

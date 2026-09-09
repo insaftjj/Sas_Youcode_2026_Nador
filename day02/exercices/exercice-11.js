@@ -18,3 +18,12 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+let resultat = 1;
+let base = 2;
+let exposant = 10;
+
+for (let i = 0; i < exposant; i++) {
+    resultat *= base;
+}
+
+console.log(resultat); // 1024

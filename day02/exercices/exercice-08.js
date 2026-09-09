@@ -15,3 +15,9 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+for (let i = 1; i <= 20; i++) {
+    if (i % 3 === 0) {
+        continue; // Ignore les multiples de 3
+    }
+    console.log(i);
+}

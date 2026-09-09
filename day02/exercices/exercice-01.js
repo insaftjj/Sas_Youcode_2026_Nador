@@ -10,8 +10,13 @@
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-01
  * ▶️ Commande : node day02/exercices/exercice-01.js
  */
-'use strict';
+
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+let numbre = 10;
+for (let i = numbre; i >= 0; i--) {
+  console.log(i);
+}
+console.log("Décollage !");

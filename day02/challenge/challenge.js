@@ -22,3 +22,21 @@
 
 // Découpe d'abord le problème en petites étapes.
 // TODO: écris ta solution ici.
+const codeSecret = 739;
+let nombreEssais = 0;
+
+// Utilisation d'un label pour cibler la boucle externe avec break
+bouclePrincipale: 
+for (let c1 = 0; c1 <= 9; c1++) {
+    for (let c2 = 0; c2 <= 9; c2++) {
+        for (let c3 = 0; c3 <= 9; c3++) {
+            nombreEssais++;
+            let codeTeste = c1 * 100 + c2 * 10 + c3;
+            
+            if (codeTeste === codeSecret) {
+                console.log(`Code trouvé : ${codeTeste} après ${nombreEssais} essais`);
+                break bouclePrincipale; // Sort des 3 boucles d'un coup
+            }
+        }
+    }
+}

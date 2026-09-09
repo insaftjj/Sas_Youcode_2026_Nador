@@ -10,8 +10,11 @@
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-03
  * ▶️ Commande : node day02/exercices/exercice-03.js
  */
-'use strict';
+
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+for (let i = 1; i <= 10; i++) {
+    console.log(`${i} x 7 = ${i * 7}`);
+}
