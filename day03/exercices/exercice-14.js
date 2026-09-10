@@ -5,7 +5,9 @@
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Écrivez une fonction calculatrice(a, b, signe). Utilisez un switch sur signe pour appeler l'une des 4 opérations de base (+, -, *, /) que vous aurez écrites en tant que fonctions distinctes.
+ * Écrivez une fonction calculatrice(a, b, signe). Utilisez un switch sur signe pour
+ *  appeler l'une des 4 opérations de base (+, -, *, /) que vous aurez 
+ * écrites en tant que fonctions distinctes.
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-14
  * ▶️ Commande : node day03/exercices/exercice-14.js
@@ -15,3 +17,43 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+// Fonctions pour les 4 opérations de base
+function additionner(a, b) {
+    return a + b;
+}
+
+function soustraire(a, b) {
+    return a - b;
+}
+
+function multiplier(a, b) {
+    return a * b;
+}
+
+function diviser(a, b) {
+    if (b === 0) {
+        return "Erreur : Division par zéro";
+    }
+    return a / b;
+}
+
+function calculatrice(a, b, signe) {
+    switch (signe) {
+        case "+":
+            return additionner(a, b);
+        case "-":
+            return soustraire(a, b);
+        case "*":
+            return multiplier(a, b);
+        case "/":
+            return diviser(a, b);
+        default:
+            return "Opérateur invalide";
+    }
+}
+
+console.log(calculatrice(10, 5, "+")); 
+console.log(calculatrice(10, 5, "-")); 
+console.log(calculatrice(10, 5, "*")); 
+console.log(calculatrice(10, 5, "/")); 
+console.log(calculatrice(10, 0, "/")); 
