@@ -17,6 +17,6 @@
 // TODO: écris ta solution ici.
 
 let invité =[ 'Yassine', 'Sara', 'Amine' ];
-invité.pop('amine')
+invité.pop([2])
 
 console.log(invité);

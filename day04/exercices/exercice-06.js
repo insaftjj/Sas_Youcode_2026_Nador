@@ -14,9 +14,8 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
-const groupe1 = ["A", "B"];
+// TODO: écris ta solution ici
+const groupe1 =["A", "B"];
 const groupe2 = ["C", "D"];
-
-const fusion = [...groupe1, ...groupe2];
-console.log(fusion); 
+const groupe3 =(groupe1. concat(groupe2) )
+console.log(groupe3)

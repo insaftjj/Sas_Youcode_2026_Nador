@@ -14,4 +14,15 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+function nombre(tab) {
+
+    for(let i=0;i<nombre.length;i++){
+        if (i%2===0){
+            
+
+        }
+    }
+    return pair
+}
+let nombres =[1,6,7,10,4];
+console.log(pair(nombres));
