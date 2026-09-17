@@ -16,5 +16,5 @@
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
 for (let i = 1; i <= 10; i++) {
-    console.log(`${i} x 7 = ${i * 7}`);
+    console.log(`{i}$ x 7 = ${i * 7}`);
 }

@@ -15,3 +15,11 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+function supprimerDoublons(tableau) {
+  return [...new Set(tableau)];
+}
+
+let tableauAvecDoublons = [1, 2, 2, 3, 4, 4, 5];
+let tableauPropre = supprimerDoublons(tableauAvecDoublons);
+
+console.log(tableauPropre); 

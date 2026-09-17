@@ -30,5 +30,3 @@ function creerCompteur() {
 const monCompteur = creerCompteur();
 
 console.log(monCompteur());
-console.log(monCompteur());
-console.log(monCompteur()); 

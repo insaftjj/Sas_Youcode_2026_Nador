@@ -24,4 +24,4 @@ for (let i = 1; i <= 6; i++) {
     resultat *= i;
 }
 
-console.log(resultat); // 720
+console.log(resultat); 

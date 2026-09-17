@@ -18,42 +18,28 @@
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
 // Fonctions pour les 4 opérations de base
-function additionner(a, b) {
-    return a + b;
-}
-
-function soustraire(a, b) {
-    return a - b;
-}
-
-function multiplier(a, b) {
-    return a * b;
-}
-
-function diviser(a, b) {
-    if (b === 0) {
-        return "Erreur : Division par zéro";
-    }
-    return a / b;
-}
 
 function calculatrice(a, b, signe) {
-    switch (signe) {
-        case "+":
-            return additionner(a, b);
-        case "-":
-            return soustraire(a, b);
-        case "*":
-            return multiplier(a, b);
-        case "/":
-            return diviser(a, b);
-        default:
-            return "Opérateur invalide";
-    }
+
+  switch(signe){
+    case "+" :
+     return a+b
+     break;
+    case "-" :
+        return a-b
+        break;
+    case "*" :
+        return a*b
+        break;
+    case "/" :
+        return a/b
+        break;
+    default :
+        break;
+  }
 }
 
-console.log(calculatrice(10, 5, "+")); 
-console.log(calculatrice(10, 5, "-")); 
-console.log(calculatrice(10, 5, "*")); 
-console.log(calculatrice(10, 5, "/")); 
-console.log(calculatrice(10, 0, "/")); 
+console.log(calculatrice(6,2,"*"));
+
+
+

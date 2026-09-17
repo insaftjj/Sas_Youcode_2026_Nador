@@ -85,11 +85,11 @@
 
 > Comment vérifier si une variable est bien un tableau (puisque `typeof []` renvoie `"object"`) ?
 
-- [ ] J'ai recherché et compris la notion.
+- [x] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> array.isarray(variable).
 
 ---
 
@@ -97,11 +97,11 @@
 
 > Quelle méthode utiliseriez-vous pour fusionner deux tableaux en un seul ?
 
-- [ ] J'ai recherché et compris la notion.
+- [x] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> on utilise concat().
 
 ---
 
@@ -109,19 +109,17 @@
 
 > Quelle est la différence entre `.slice()` et `.splice()` lors de la manipulation d'un tableau ?
 
-- [ ] J'ai recherché et compris la notion.
+- [  x] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
-
----
+> slice() : Ne modifie pas le tableau d'origine (immuable) et extrait une copie.splice() : Modifie directement le tableau d'origine (mutable) pour ajouter, supprimer ou remplacer des éléments.
 
 ### Question 09
 
 > Les tableaux en JavaScript sont-ils passés par *valeur* ou par *référence* lorsqu'ils sont assignés à une nouvelle variable ?
 
-- [ ] J'ai recherché et compris la notion.
+- [x] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 

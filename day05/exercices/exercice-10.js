@@ -19,3 +19,4 @@ function nador(email) {
     return email.split("@") [1];
 }
 console.log(nador("contact@youcode.ma"))
+

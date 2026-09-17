@@ -20,20 +20,15 @@
 // TODO: écris ta solution ici.
 function estPalindrome(mot) {
    
-    let motPropre = mot.toLowerCase();
-    
-    
-    for (let i = 0; i < motPropre.length / 2; i++) {
-        if (motPropre[i] !== motPropre[motPropre.length - 1 - i]) {
-            return false; 
+    let motinverse= mot.split('').reverse().join('');
+
+        if (motinverse === mot){
+          return true;  
+        } else {
+          return false;  
         }
-    }
-    
-    return true; 
 }
 
 
 console.log(estPalindrome("radar")); 
-console.log(estPalindrome("Radar")); 
-console.log(estPalindrome("kayak"));
-console.log(estPalindrome("hello")); 
+

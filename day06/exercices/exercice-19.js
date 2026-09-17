@@ -1,27 +1,17 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 03 · EXERCICE 11 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
- * FACTORIELLE ENCAPSULÉE
+ * JOUR 06 · EXERCICE 19 · NIVEAU 3 : DÉFI (AVANCÉS)
+ * REGROUPEMENT (GROUP BY)
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Convertissez votre logique de factorielle (Day 02) en une fonction
- *  calculerFactorielle(n). Si n = 0, la fonction doit retourner 1.
+ * Vous avez un tableau [{nom: "A", groupe: 1}, {nom: "B", groupe: 2}, {nom: "C", groupe: 1}]. Créez une fonction qui retourne un objet regroupant ces données : { 1: [{nom: "A"}, {nom: "C"}], 2: [{nom: "B"}] }.
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-11
- * ▶️ Commande : node day03/exercices/exercice-11.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-19
+ * ▶️ Commande : node day06/exercices/exercice-19.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
-function calculerFactorielle(n) {
-
-   if (n==0 || n==1){
-    return 1
-   }
-   return n*calculerFactorielle(n-1)
-}
-console.log(calculerFactorielle(0));
-

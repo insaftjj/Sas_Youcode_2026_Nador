@@ -35,4 +35,3 @@ function genererMotDePasse(longueur) {
 
 
 console.log(genererMotDePasse(8));  
-console.log(genererMotDePasse(12)); 

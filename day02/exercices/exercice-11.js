@@ -26,4 +26,4 @@ for (let i = 0; i < exposant; i++) {
     resultat *= base;
 }
 
-console.log(resultat); // 1024
+console.log(resultat); 

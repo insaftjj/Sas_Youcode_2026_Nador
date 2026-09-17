@@ -14,15 +14,17 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-function nombre(tab) {
+function lespaires(tab) {
+    let newArr =[]
 
-    for(let i=0;i<nombre.length;i++){
-        if (i%2===0){
-            
-
+    for(let i=0;i<tab.length;i++){
+        if (tab[i]%2===0){
+            newArr.push(tab[i])
         }
     }
-    return pair
+    return newArr
 }
-let nombres =[1,6,7,10,4];
-console.log(pair(nombres));
+let Arr =[1,6,7,10,4];
+console.log(lespaires(Arr));
+
+

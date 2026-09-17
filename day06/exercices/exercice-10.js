@@ -1,20 +1,27 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 04 · EXERCICE 10 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
- * RETIRER DES ÉLÉMENTS (SPLICE)
+ * JOUR 06 · EXERCICE 10 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
+ * COMPTAGE DE VALEURS
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Vous avez mois = ["Jan", "Fev", "MARS_EN_TROP", "Avril"]. Utilisez .splice() pour retirer "MARS_EN_TROP" sans toucher aux autres.
+ * Vous avez une chaîne de caractères "abracadabra". Créez une fonction qui retourne un objet comptant le nombre d'occurrences de chaque lettre. (ex: { a: 5, b: 2, r: 2, c: 1, d: 1 }).
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-10
- * ▶️ Commande : node day04/exercices/exercice-10.js
+ * ▶️ Commande : node day06/exercices/exercice-10.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-let  mois = ["Jan", "Fev", "MARS_EN_TROP", "Avril"];
- mois.splice(2,1);
-console.log(mois);
+function compterLettres(chaine) {
+  const occurences = {};
+
+  for (const lettre of chaine) {
+    occurences[lettre] = (occurences[lettre] || 0) + 1;
+  }
+
+  return occurences;
+}
+console.log(compterLettres("abracadabra"));
 

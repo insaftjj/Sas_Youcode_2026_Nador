@@ -26,5 +26,4 @@ function trouverMax(a, b, c) {
     }
 }
 console.log(trouverMax(10, 5, 8)); 
-console.log(trouverMax(3, 15, 2));  
-console.log(trouverMax(4, 4, 9))
+

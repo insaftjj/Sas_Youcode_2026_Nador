@@ -21,4 +21,4 @@ let somme = 0;
 for (let i = 1; i <= 50; i++) {
     somme += i;
 }
-console.log(somme); // 1275
+console.log(somme);

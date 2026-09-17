@@ -18,12 +18,18 @@
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
 // Fonction pour multiplier deux nombres
-function multiplier(x, y) {
-    return x * y;
-}
 
 function executerOperation(a, b, operation) {
-    return operation(a, b);
+
+    if (operation = "multiplicateur") {
+        return a*b
+    } 
+    else if (operation="addition ")
+        return a+b
+    else if  (operateur="division")
+        return a / b
+    else (operateur="soustraction")
+        return a-b
 }
 
-console.log(executerOperation(5, 3, multiplier));
+console.log(executerOperation(5, 3,"multiplier"));

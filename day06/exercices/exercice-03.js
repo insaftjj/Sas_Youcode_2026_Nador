@@ -1,27 +1,20 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 03 · EXERCICE 11 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
- * FACTORIELLE ENCAPSULÉE
+ * JOUR 06 · EXERCICE 03 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
+ * SUPPRESSION
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Convertissez votre logique de factorielle (Day 02) en une fonction
- *  calculerFactorielle(n). Si n = 0, la fonction doit retourner 1.
+ * Supprimez la propriété estAdmin de l'objet utilisateur.
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-11
- * ▶️ Commande : node day03/exercices/exercice-11.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-03
+ * ▶️ Commande : node day06/exercices/exercice-03.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
-function calculerFactorielle(n) {
-
-   if (n==0 || n==1){
-    return 1
-   }
-   return n*calculerFactorielle(n-1)
-}
-console.log(calculerFactorielle(0));
-
+let objet = { nom: 'insaf', age: 21, estAdmin: true, email: 'insaf@gmail.com' }
+delete objet.estAdmin;
+console.log(objet)

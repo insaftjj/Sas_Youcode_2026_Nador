@@ -1,27 +1,23 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 03 · EXERCICE 11 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
- * FACTORIELLE ENCAPSULÉE
+ * JOUR 06 · EXERCICE 02 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
+ * MISE À JOUR
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Convertissez votre logique de factorielle (Day 02) en une fonction
- *  calculerFactorielle(n). Si n = 0, la fonction doit retourner 1.
+ * Changez l'âge de l'utilisateur précédent pour l'augmenter de 1, et ajoutez-lui une propriété email.
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-11
- * ▶️ Commande : node day03/exercices/exercice-11.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-02
+ * ▶️ Commande : node day06/exercices/exercice-02.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
-function calculerFactorielle(n) {
+let objet = { nom: 'insaf', age: 20, estAdmin: true } 
+objet.age += 1;
 
-   if (n==0 || n==1){
-    return 1
-   }
-   return n*calculerFactorielle(n-1)
-}
-console.log(calculerFactorielle(0));
+objet.email = "insaf@gmail.com";
 
+console.log(objet);

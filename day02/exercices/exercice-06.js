@@ -17,7 +17,7 @@
 // TODO: écris ta solution ici.
 for (let i = 1; i <= 100; i++) {
     if (i === 7) {
-        break; // Arrête la boucle dès que i atteint 7
+        break;
     }
     console.log(i);
 }
